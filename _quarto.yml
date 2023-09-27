@@ -1,0 +1,52 @@
+project:
+  type: book
+
+execute:
+  freeze: auto
+
+
+book:
+  page-navigation: true
+  title: "Documentation"
+  description: "foo"
+  site-url: "https://foogithub.io/foo/"
+  repo-url: https://github.com/foo/foo
+  repo-actions: [edit, issue]
+  open-graph: true
+  image: "/images/logo.png"
+  favicon: "/images/logo.png"
+  search:
+    type: overlay  
+  page-footer:
+    left: |
+      © Team X, 2023
+    center:
+      - text: "Home"
+        href: index.qmd
+      - text: "Intro"
+        href: intro.qmd  
+    right:
+      - icon: person-circle
+      - text: "Moodle"
+        href: https://moodle.hdm-stuttgart.de/login/index.php
+        aria-label: Moodle    
+#    background: "#325b74"    
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+
+
+format:
+  html:
+    toc: true
+    theme:
+      light: [cosmo, style/style.scss]
+      dark: [cosmo, style/style.scss, style/dark.scss]
+    mainfont: "Atkinson Hyperlegible"
+    code-copy: true
+    code-overflow: wrap
+
+bibliography: references.bib

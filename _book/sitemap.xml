@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://foogithub.io/foo/index.html</loc>
+    <lastmod>2023-09-27T12:49:05.122Z</lastmod>
+  </url>
+  <url>
+    <loc>https://foogithub.io/foo/intro.html</loc>
+    <lastmod>2023-09-27T12:49:05.124Z</lastmod>
+  </url>
+  <url>
+    <loc>https://foogithub.io/foo/summary.html</loc>
+    <lastmod>2023-09-27T12:49:05.127Z</lastmod>
+  </url>
+  <url>
+    <loc>https://foogithub.io/foo/references.html</loc>
+    <lastmod>2023-09-27T12:49:05.128Z</lastmod>
+  </url>
+</urlset>

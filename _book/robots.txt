@@ -1,0 +1,1 @@
+Sitemap: https://foogithub.io/foo/sitemap.xml
